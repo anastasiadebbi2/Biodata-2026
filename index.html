@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografi Saya</title>
+    <style>
+        /* Reset & global style */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f6f9fc, #dbefff);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #4a90e2;
+            border-left: 6px solid #4a90e2;
+            padding-left: 10px;
+        }
+
+        p, li {
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 10px 15px 0 0;
+            text-decoration: none;
+            color: #65a3b3;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .links a:hover {
+            background: #3b7dc4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4a90e2;
+            color: white;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="tasol.jpg" alt="Foto Profil">
+        <!-- Ganti URL di atas dengan URL foto profil Anda -->
+        <h1>Anastasia Debbi Safitri</h1>
+    </header>
+
+    <div class="container">
+
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Perkenalkan, nama saya Anastasia Debbi Safitri, seorang siswi di SMA Gunung Madu. Saya merupakan anak kedua dari tiga bersaudara; kakak saya sudah bekerja, sementara adik saya masih duduk di kelas 5 SD. Saya dikenal sebagai pribadi yang mudah berinteraksi dengan lingkungan sekitar dan sangat aktif dalam berbagai kegiatan di sekolah, keluarga, maupun sosial.
+Saya memiliki semangat belajar yang tinggi serta rasa ingin tahu yang besar, sehingga selalu berusaha untuk terus berkembang. Meskipun saya mudah bergaul dan terbuka dengan banyak orang, saya juga bijak dalam memilih teman yang tepat dan sesuai dengan nilai-nilai yang saya pegang.</p>
+        </section>
+
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <ul>
+                <li>SD Negeri 1 Gunung Madu 2014 - 2020</li>
+                <li>SMP Satya Dharma Sudjana 2020 - 2023</li>
+                <li>SMA Gunung Madu 2023 - sekarang</li>
+            </ul>
+        </section>
+
+        <section id="data">
+            <h2>Data Diri</h2>
+            <table>
+                <tr>
+                    <th>Nama</th>
+                    <td>Anastasia Debbi Safitri</td>
+                </tr>
+                <tr>
+                    <th>Tempat, Tanggal Lahir</th>
+                    <td>Lampung Tengah, 2 Agustus 2008</td>
+                </tr>
+                <tr>
+                    <th>Alamat</th>
+                    <td>Perumahan 2 PT GMP</td>
+                </tr>
+                <tr>
+                    <th>jenis Kelamin</th>
+                    <td>Wanita</td>
+                </tr>
+                <tr>
+                    <th>Hobby</th>
+                    <td>Dance and Membaca</td>
+                </tr>
+                <tr>
+                    <th>Mapel Pilihan 1</th>
+                    <td>Chemistry</td>
+                </tr>
+                <tr>
+                    <th>Mapel pilihan 2</th>
+                    <td>Mathematics</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="pencapaian">
+            <h2>Pencapaian Hidup</h2>
+            <ul>
+                <li>Juara 3 Lomba Senam Pramuka Wesco</li>
+                <li>masuk 10 besar paralel kelas 10,11</li>
+                <li>Juara 3 Presentasi SMA Gunung Madu</li>
+            </ul>
+        </section>
+        <section id="karya">
+            <h2>Karya Saya</h2>
+            <p>Silahkan buka karya saya di link berikut :</p>
+            <div class="links">
+                <a href="https://drive.google.com/drive/folders/1zSOzz34PF0Viq-J0JWybjuRGqDcDLlht" target="_blank">📁 Google Drive Karya</a>
+            </div>
+        </section>
+
+        <section id="sosial">
+            <h2>Media Sosial</h2>
+            <p>Silahkan buka sosial media saya di link berikut :</p>
+            <div class="links">
+                <a href="https://www.instagram.com/anstsiadb_?igsh=ejVpZm9yN28zY29r" target="_blank">📷 Instagram</a>
+            
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; Anastasia Debbi Safitri 2026
+    </footer>
+
+</body>
+</html>
